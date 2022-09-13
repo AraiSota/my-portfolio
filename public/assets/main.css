@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-/*ひな形-開始*/
+/*BESIC BEGIN*/
 html,
 body {
   font-family: Roboto, "Note Sans JP", sans-serif;
@@ -36,8 +36,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
-/*ひな形-終了*/
-/* 共通部分 開始 */
+/*BESIC END*/
+/*COMMON PART BEGIN*/
 
 .text-dark {
   color: #101841;
@@ -63,5 +63,42 @@ a:hover {
 .bg-3 {
   background-color: #f3deb9;
 }
-/* 共通部分 終了 */
-/*  */
+/*COMMON PART END*/
+/*OVERALL BEGIN*/
+.page-cover {
+  min-height: 100vh;
+}
+.page-title {
+  margin: 0;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.page-bg-icon {
+  position: fixed;
+  width: 32px;
+}
+.page-bg-icon-lt {
+  top: 16px;
+  left: 16px;
+}
+.page-bg-icon-rb {
+  right: 16px;
+  bottom: 16px;
+}
+/*OVERALL END*/
+/*FOOTER BEGIN*/
+.footer-cover {
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.56);
+  box-sizing: border-box;
+  position: relative;
+}
+.footer-contents {
+  padding: 16px;
+  font-size: 0.875rem;
+}
+/*FOOTER END*/
