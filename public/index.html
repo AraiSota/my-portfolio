@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/main.css" />
   </head>
   <body>
+    <!-- 背景 -->
     <img
       src="./assets/decorations/lt.svg"
       alt="背景デザイン画像1"
@@ -19,9 +20,72 @@
       alt="背景デザイン画像2"
       class="page-bg-icon page-bg-icon-rb"
     />
+    <!-- タイトル -->
     <div class="page-cover bg-3 text-dark">
       <h1 class="page-title text-1">Portfolio</h1>
+      <!-- カード -->
+      <div class="card-cover bg-white">
+        <h2 class="card-title-cover bg-2 text-light">
+          <div class="card-title">English Title</div>
+          <div class="card-subtitle">日本語タイトル</div>
+          <div class="card-title-line"></div>
+        </h2>
+        <div class="card-contents">内容</div>
+      </div>
 
+      <div style="height: 20px"></div>
+
+      <!-- 自己紹介カード -->
+      <div class="card-cover bg-white">
+        <h2 class="card-title-cover bg-2 text-light">
+          <div class="card-title">Self-Introduction</div>
+          <div class="card-subtitle">自己紹介</div>
+          <div class="card-title-line"></div>
+        </h2>
+        <div class="card-contents">
+          <div class="card-basic-info-layout">
+            <div>
+              <img src="./assets/me.png" alt="顔写真" class="my-photo" />
+            </div>
+            <div style="flex-grow: 1">
+              <div style="display: flex; gap: 1em; align-items: flex-end">
+                <h3 style="margin: 0; font-size: 2rem">新井 創太</h3>
+                <span style="padding-bottom: 4px">あらい そうた</span>
+              </div>
+              <div class="bg-2" style="height: 2px"></div>
+              <div class="text-2" style="font-size: 0.95rem">Sota Arai</div>
+
+              <div
+                class="text-1"
+                style="display: flex; gap: 0.5em; align-items: center"
+              >
+                <img src="./assets/icons/email.svg" alt="Emailのアイコン" />
+                <span>202109as[at]gmail.com</span>
+              </div>
+
+              <div>宇都宮大学 工学部 基盤工学科 3年生</div>
+            </div>
+          </div>
+        </div>
+        <div class="card-contents">
+          <span class="card-basic-info-label bg-1 text-light">自己紹介</span>
+          <p>
+            はじめまして、新井　創太
+            といいます。このサイトは、私のことについて紹介するポートフォリオです。
+            このポートフォリオが、webの初めての制作物になります。
+            どうぞ御覧ください。
+          </p>
+          <span class="card-basic-info-label bg-1 text-light">coution!!</span>
+          <p>
+            このページはweb制作のためのページになります。
+            掲載されている情報は私の情報に基づいていますが、一部の情報は実際とは異なります。
+            例えば、プロフィール画像は
+            <a href="https:ww.photo-ac.com/">写真AC</a>のAI
+            Generatorで生成した架空の人物です。
+          </p>
+        </div>
+      </div>
+      <!-- フッター -->
       <div style="height: 40px"></div>
       <footer class="footer-cover bg-2 text-light">
         <div style="height: 4px; background-color: rgba(0, 0, 0, 0.1)"></div>
